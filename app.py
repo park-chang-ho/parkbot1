@@ -12,7 +12,6 @@ load_dotenv()
 
 token = os.getenv("TOKEN")
 
-TOKEN = "OTU4MTkyMDQyNTcwMjkzMjg4.GRsQFc.Fi8mcHslTZ8DfmWIAQAygHOxZvErxB0TK-8iqM"
 CHZZK_FILE = "chzzk_data.json"
 GUILD_ID = 1462439713725091930
 CHANNEL_ID = 1462439714958348322
