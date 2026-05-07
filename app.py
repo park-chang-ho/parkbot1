@@ -7,6 +7,10 @@ import re
 import time
 import random
 import asyncio
+from dotenv import load_dotenv
+load_dotenv()
+
+token = os.getenv("TOKEN")
 
 TOKEN = "OTU4MTkyMDQyNTcwMjkzMjg4.GRsQFc.Fi8mcHslTZ8DfmWIAQAygHOxZvErxB0TK-8iqM"
 CHZZK_FILE = "chzzk_data.json"
